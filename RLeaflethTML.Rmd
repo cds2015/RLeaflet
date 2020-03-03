@@ -1,0 +1,58 @@
+---
+date: "February 29, 2020"
+output: html_document
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# February 29, 2020
+### Show Co-Ordinates of Statue Of Liberty on map using Leaflet Library 
+
+```{r chunk 1}
+library(leaflet)
+my_map <- leaflet() %>% addTiles()   
+my_map <- my_map %>% addMarkers(lat= 40.6892, lng= -74.0445, 
+                              popup="Statue of Liberty")
+my_map  
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
